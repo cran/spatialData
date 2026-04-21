@@ -1,0 +1,9 @@
+bibentry(
+  bibtype  = "Misc",
+  title    = "spatialData: Spatial Datasets for Ecological Modeling",
+  author   = person("Blas M.", "Benito", email = "blasbenito@gmail.com"),
+  year     = "2025",
+  note     = paste0("R package version ", meta$Version),
+  url      = "https://blasbenito.github.io/spatialData/",
+  doi      = "10.5281/zenodo.19508673"
+)
