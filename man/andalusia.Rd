@@ -49,8 +49,8 @@ nrow(andalusia)
 ncol(andalusia)
 }
 \seealso{
-Other andalusia: 
-\code{\link{andalusia_extra}()},
+Other andalusia:
+\code{\link[=andalusia_extra]{andalusia_extra()}},
 \code{\link{andalusia_predictors}},
 \code{\link{andalusia_responses}}
 }

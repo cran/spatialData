@@ -19,9 +19,9 @@ data(trees_response)
 trees_response
 }
 \seealso{
-Other trees: 
+Other trees:
 \code{\link{trees}},
-\code{\link{trees_extra}()},
+\code{\link[=trees_extra]{trees_extra()}},
 \code{\link{trees_predictors}}
 }
 \concept{trees}

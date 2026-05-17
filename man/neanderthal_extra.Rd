@@ -13,7 +13,7 @@ SpatRaster object.
 Downloads and reads the environmental raster associated with the \link{neanderthal} dataset from the \href{https://github.com/BlasBenito/spatialDataExtra}{spatialDataExtra} repository. Writes the file \code{neanderthal_env.tif} to the working directory and returns it as a \code{spatRaster} object.
 }
 \seealso{
-Other neanderthal: 
+Other neanderthal:
 \code{\link{neanderthal}},
 \code{\link{neanderthal_predictors}},
 \code{\link{neanderthal_response}}

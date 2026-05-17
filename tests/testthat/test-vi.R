@@ -9,7 +9,7 @@ test_that("vi_smol has correct dimensions", {
   data(vi_smol)
   expect_true(is.data.frame(vi_smol))
   expect_equal(nrow(vi_smol), 580)
-  expect_equal(ncol(vi_smol), 65)
+  expect_equal(ncol(vi_smol), 64)
 })
 
 test_that("vi_responses has correct length", {

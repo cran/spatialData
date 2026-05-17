@@ -18,9 +18,9 @@ data(andalusia_predictors)
 andalusia_predictors
 }
 \seealso{
-Other andalusia: 
+Other andalusia:
 \code{\link{andalusia}},
-\code{\link{andalusia_extra}()},
+\code{\link[=andalusia_extra]{andalusia_extra()}},
 \code{\link{andalusia_responses}}
 }
 \concept{andalusia}

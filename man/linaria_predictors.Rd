@@ -20,9 +20,9 @@ data(linaria_predictors)
 linaria_predictors
 }
 \seealso{
-Other linaria: 
+Other linaria:
 \code{\link{linaria}},
-\code{\link{linaria_extra}()},
+\code{\link[=linaria_extra]{linaria_extra()}},
 \code{\link{linaria_responses}}
 }
 \concept{linaria}

@@ -18,9 +18,9 @@ data(neanderthal_predictors)
 neanderthal_predictors
 }
 \seealso{
-Other neanderthal: 
+Other neanderthal:
 \code{\link{neanderthal}},
-\code{\link{neanderthal_extra}()},
+\code{\link[=neanderthal_extra]{neanderthal_extra()}},
 \code{\link{neanderthal_response}}
 }
 \concept{neanderthal}

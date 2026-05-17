@@ -84,8 +84,8 @@ nrow(neanderthal)
 ncol(neanderthal)
 }
 \seealso{
-Other neanderthal: 
-\code{\link{neanderthal_extra}()},
+Other neanderthal:
+\code{\link[=neanderthal_extra]{neanderthal_extra()}},
 \code{\link{neanderthal_predictors}},
 \code{\link{neanderthal_response}}
 }

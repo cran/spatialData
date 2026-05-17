@@ -18,10 +18,10 @@ data(plantae_predictors)
 plantae_predictors
 }
 \seealso{
-Other plantae: 
+Other plantae:
 \code{\link{plantae}},
 \code{\link{plantae_east}},
-\code{\link{plantae_extra}()},
+\code{\link[=plantae_extra]{plantae_extra()}},
 \code{\link{plantae_responses}},
 \code{\link{plantae_west}}
 }

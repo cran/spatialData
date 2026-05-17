@@ -11,9 +11,10 @@ sf data.frame with 30,000 rows and 64 columns (POINT geometry, WGS84).
 }
 \description{
 Downloads and reads the extended version of the \link{vi} dataset (30,000 rows) from the \href{https://github.com/BlasBenito/spatialDataExtra}{spatialDataExtra} repository. Writes the file \code{vi.gpkg} to the working directory, and returns it as an \code{sf} dataframe. See \link{vi} for details on the response variables, predictors, and data sources.
+Results are cached in memory for the duration of the R session; calling the function again returns the cached object instantly without re-reading from disk.
 }
 \seealso{
-Other vi: 
+Other vi:
 \code{\link{vi}},
 \code{\link{vi_predictors}},
 \code{\link{vi_responses}},

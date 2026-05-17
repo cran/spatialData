@@ -22,9 +22,9 @@ ncol(vi_smol)
 \seealso{
 \link{vi}
 
-Other vi: 
+Other vi:
 \code{\link{vi}},
-\code{\link{vi_extra}()},
+\code{\link[=vi_extra]{vi_extra()}},
 \code{\link{vi_predictors}},
 \code{\link{vi_responses}}
 }

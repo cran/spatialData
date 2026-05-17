@@ -62,8 +62,8 @@ nrow(interaction)
 ncol(interaction)
 }
 \seealso{
-Other interaction: 
-\code{\link{interaction_extra}()},
+Other interaction:
+\code{\link[=interaction_extra]{interaction_extra()}},
 \code{\link{interaction_predictors}},
 \code{\link{interaction_responses}}
 }

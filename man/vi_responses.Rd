@@ -18,9 +18,9 @@ data(vi_responses)
 vi_responses
 }
 \seealso{
-Other vi: 
+Other vi:
 \code{\link{vi}},
-\code{\link{vi_extra}()},
+\code{\link[=vi_extra]{vi_extra()}},
 \code{\link{vi_predictors}},
 \code{\link{vi_smol}}
 }

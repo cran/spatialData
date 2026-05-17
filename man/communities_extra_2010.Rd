@@ -13,10 +13,10 @@ spatRaster object.
 Downloads the baseline (2010) environmental raster associated with the \link{communities} dataset from the \href{https://github.com/BlasBenito/spatialDataExtra}{spatialDataExtra} repository. Writes the file \code{communities_2010.tif} in the working directory and returns it as a \code{spatRaster} object.
 }
 \seealso{
-Other communities: 
+Other communities:
 \code{\link{communities}},
-\code{\link{communities_extra_2050}()},
-\code{\link{communities_extra_2100}()},
+\code{\link[=communities_extra_2050]{communities_extra_2050()}},
+\code{\link[=communities_extra_2100]{communities_extra_2100()}},
 \code{\link{communities_predictors}},
 \code{\link{communities_responses}}
 }

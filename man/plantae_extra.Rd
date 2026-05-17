@@ -12,9 +12,10 @@ sf dataframe with 662 rows and 143 columns (MULTIPOLYGON geometry, WGS84).
 \description{
 Downloads and reads the extended version of the \link{plantae} dataset with original polygon geometries instead of point centroids, from the \href{https://github.com/BlasBenito/spatialDataExtra}{spatialDataExtra} repository. Writes the file \code{plantae.gpkg} to the working directory and returns it as an \code{sf} dataframe.
 See \link{plantae} for details on the response variables, predictors, and data sources.
+Results are cached in memory for the duration of the R session; calling the function again returns the cached object instantly without re-reading from disk.
 }
 \seealso{
-Other plantae: 
+Other plantae:
 \code{\link{plantae}},
 \code{\link{plantae_east}},
 \code{\link{plantae_predictors}},

@@ -151,8 +151,8 @@ nrow(vi)
 ncol(vi)
 }
 \seealso{
-Other vi: 
-\code{\link{vi_extra}()},
+Other vi:
+\code{\link[=vi_extra]{vi_extra()}},
 \code{\link{vi_predictors}},
 \code{\link{vi_responses}},
 \code{\link{vi_smol}}

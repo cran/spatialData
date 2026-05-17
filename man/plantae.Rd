@@ -189,7 +189,7 @@ An sf data frame with 662 rows (ecoregions) and 143 columns:
 \source{
 \strong{Associated publications:}
 \itemize{
-\item Maestre, F.T., Benito, B.M., Berdugo, M., Concostrina-Zubiri, L., Delgado-Baquerizo, M., Eldridge, D.J., Guirado, E., Gross, N., Kefi, S., Le Bagousse-Pinguet, Y., et al. (2021). Biogeography of global drylands. \emph{New Phytologist}, 231(2), 540--558. \doi{10.1111/nph.17398}
+\item Maestre, F.T., Benito, B.M., Berdugo, M., Concostrina-Zubiri, L., Delgado-Baquerizo, M., Eldridge, D.J., Guirado, E., Gross, N., Kefi, S., Le Bagousse-Pinguet, Y., et al. (2021). Biogeography of global drylands. \emph{New Phytologist}, 231(2), 540--558. \doi{10.1111/nph.17395}
 \item GBIF Plantae Dataset (September 15, 2020). \doi{10.15468/dl.xh5y5g}
 \item Dinerstein, E., et al. (2017). An Ecoregion-Based Approach to Protecting Half the Terrestrial Realm. \emph{BioScience}, 67(6), 534-545. \doi{10.1093/biosci/bix014}
 \item Karger, D.N., et al. (2021). Climatologies at high resolution for the earth's land surface areas. EnviDat. \doi{10.16904/envidat.228.v2.1}
@@ -238,9 +238,9 @@ nrow(plantae)
 ncol(plantae)
 }
 \seealso{
-Other plantae: 
+Other plantae:
 \code{\link{plantae_east}},
-\code{\link{plantae_extra}()},
+\code{\link[=plantae_extra]{plantae_extra()}},
 \code{\link{plantae_predictors}},
 \code{\link{plantae_responses}},
 \code{\link{plantae_west}}

@@ -154,12 +154,18 @@
 #'
 #' @description
 #' Downloads and reads an `sf` dataframe with the tree species presence records associated with the [trees] dataset from the [spatialDataExtra](https://github.com/BlasBenito/spatialDataExtra) repository. Writes the file `trees_presence.gpkg` to the working folder, and returns it as an `sf` dataframe.
+#' Results are cached in memory for the duration of the R session; calling the function again returns the cached object instantly without re-reading from disk.
 #'
-#' 
+#'
 #' @return sf data frame with POINT geometry (WGS84, EPSG:4326) and columns `species` and `source`.
 #' @family trees
 #' @export
 trees_extra <- function() {
+  cache_key <- "trees_extra"
+  if (exists(cache_key, envir = .cache, inherits = FALSE)) {
+    return(get(cache_key, envir = .cache, inherits = FALSE))
+  }
+
   cache_dir <- tools::R_user_dir("spatialData", which = "data")
   dir.create(cache_dir, recursive = TRUE, showWarnings = FALSE)
   path <- file.path(cache_dir, "trees_presence.gpkg")
@@ -183,10 +189,7 @@ trees_extra <- function() {
     )
   }
 
-  out <- sf::st_read(
-    dsn = path,
-    quiet = TRUE
-  )
-
+  out <- sf::st_read(dsn = path, quiet = TRUE)
+  assign(cache_key, out, envir = .cache)
   out
 }

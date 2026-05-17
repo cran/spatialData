@@ -54,10 +54,10 @@ nrow(communities)
 ncol(communities)
 }
 \seealso{
-Other communities: 
-\code{\link{communities_extra_2010}()},
-\code{\link{communities_extra_2050}()},
-\code{\link{communities_extra_2100}()},
+Other communities:
+\code{\link[=communities_extra_2010]{communities_extra_2010()}},
+\code{\link[=communities_extra_2050]{communities_extra_2050()}},
+\code{\link[=communities_extra_2100]{communities_extra_2100()}},
 \code{\link{communities_predictors}},
 \code{\link{communities_responses}}
 }

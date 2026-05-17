@@ -136,8 +136,8 @@ nrow(trees)
 ncol(trees)
 }
 \seealso{
-Other trees: 
-\code{\link{trees_extra}()},
+Other trees:
+\code{\link[=trees_extra]{trees_extra()}},
 \code{\link{trees_predictors}},
 \code{\link{trees_response}}
 }

@@ -11,9 +11,10 @@ sf data frame with POINT geometry (WGS84, EPSG:4326) and columns \code{species} 
 }
 \description{
 Downloads and reads an \code{sf} dataframe with the tree species presence records associated with the \link{trees} dataset from the \href{https://github.com/BlasBenito/spatialDataExtra}{spatialDataExtra} repository. Writes the file \code{trees_presence.gpkg} to the working folder, and returns it as an \code{sf} dataframe.
+Results are cached in memory for the duration of the R session; calling the function again returns the cached object instantly without re-reading from disk.
 }
 \seealso{
-Other trees: 
+Other trees:
 \code{\link{trees}},
 \code{\link{trees_predictors}},
 \code{\link{trees_response}}

@@ -93,8 +93,8 @@ nrow(linaria)
 ncol(linaria)
 }
 \seealso{
-Other linaria: 
-\code{\link{linaria_extra}()},
+Other linaria:
+\code{\link[=linaria_extra]{linaria_extra()}},
 \code{\link{linaria_predictors}},
 \code{\link{linaria_responses}}
 }

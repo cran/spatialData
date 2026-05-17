@@ -18,9 +18,9 @@ data(interaction_predictors)
 interaction_predictors
 }
 \seealso{
-Other interaction: 
-\code{\link{interaction}()},
-\code{\link{interaction_extra}()},
+Other interaction:
+\code{\link{interaction}},
+\code{\link[=interaction_extra]{interaction_extra()}},
 \code{\link{interaction_responses}}
 }
 \concept{interaction}

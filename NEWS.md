@@ -1,3 +1,9 @@
+# spatialData 1.0.1
+
+- Fixed wrong doi in `R/plantae.R` and `README.md`.
+- Dataset `vi_smol` is now an `sf` dataframe.
+- `plantae_extra()`, `vi_extra()`, and `trees_extra()` now cache their result in memory for the duration of the R session. Subsequent calls within the same session return the cached object instantly without re-reading from disk.
+
 # spatialData 1.0.0
 
 First release of `spatialData` on CRAN, with the following datasets:

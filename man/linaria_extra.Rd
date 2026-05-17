@@ -14,7 +14,7 @@ Downloads and reads the 20-band environmental raster associated with the \link{l
 from the \href{https://github.com/BlasBenito/spatialDataExtra}{spatialDataExtra} repository. Writes the file \code{linaria_env.tif} in the working directory and returns it as a \code{spatRaster} object.
 }
 \seealso{
-Other linaria: 
+Other linaria:
 \code{\link{linaria}},
 \code{\link{linaria_predictors}},
 \code{\link{linaria_responses}}

@@ -110,8 +110,8 @@ nrow(quercus)
 ncol(quercus)
 }
 \seealso{
-Other quercus: 
-\code{\link{quercus_extra}()},
+Other quercus:
+\code{\link[=quercus_extra]{quercus_extra()}},
 \code{\link{quercus_predictors}},
 \code{\link{quercus_response}}
 }

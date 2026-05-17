@@ -18,9 +18,9 @@ data(quercus_predictors)
 quercus_predictors
 }
 \seealso{
-Other quercus: 
+Other quercus:
 \code{\link{quercus}},
-\code{\link{quercus_extra}()},
+\code{\link[=quercus_extra]{quercus_extra()}},
 \code{\link{quercus_response}}
 }
 \concept{quercus}
